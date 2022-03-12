@@ -16,13 +16,13 @@
             
             if($result){
                 echo "<script language='javascript'> 
-                    alert('se agrego correctamente usuario'); 
-                    location.href='index.php';
+                    alert('se agrego usuario correctamente '); 
+                    location.href='index.html';
                 </script>";
                 // header('Location:index.php');
             }else {
                 echo "<script> alert('se mandaron datos'); </script>";
-                header('Location:index.php');
+                header('Location:index.html');
             }
         
 
