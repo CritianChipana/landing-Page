@@ -38,6 +38,8 @@ body {
   width: 56%;
   /* border: 1px solid red; */
   box-shadow: -10px 10px 20px #939293;
+  background-color: #fdfcfd;
+
 }
 
 .form-section {
@@ -118,11 +120,14 @@ input {
     overflow: hidden;
     width: 84%;
     /* height: 40%; */
+    /* border: 1px solid black; */
+
   }
 
   .form-section {
     /* border: 1px solid green; */
-
+    /* border: 1px solid black; */
+    margin-bottom: 15px;
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
